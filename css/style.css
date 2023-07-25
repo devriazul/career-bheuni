@@ -1,4 +1,11 @@
-/* Add custom styles for the counting section */
+.primary-color{
+    color:white ;
+    background-color:#20356D ;
+}
+.secondary-color{
+    background-color:#F37124 ;
+    color:white ;
+}
 .counting-item {
     text-align: center;
 }
@@ -32,4 +39,7 @@
   .benefit-icon {
     font-size: 36px;
     color: #007bff;
+  }
+  a{
+    text-decoration: none!important;
   }

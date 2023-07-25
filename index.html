@@ -16,8 +16,8 @@
   <!-- Header Section -->
   <header class="bg-light">
     <!-- Top Bar -->
-    <div class="container py-2">
-      <div class="d-flex justify-content-end">
+    <div class="py-2 primary-color">
+      <div class="container d-flex justify-content-end">
         <div class="me-3">
           <a class="text-reset" href="mailto:info@example.com"><i class="fas fa-envelope"></i> ask@bheuni.io</a>
         </div>
@@ -25,75 +25,96 @@
           <a class="text-reset" href="tel:+123456789"><i class="fas fa-phone"></i> +1 (234) 567-89</a>
         </div>
         <div class="me-3">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><img src="./img/fb.png" alt=""></a>
+          <a href="#"><img src="./img/twitter.png" alt=""></a>
+          <a href="#"><img src="./img/linkedin.png" alt=""></a>
+          <!-- <a href="#"><img src="./img/" alt=""></a> -->
         </div>
       </div>
     </div>
 
     <!-- Menu Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container">
-        <!-- Logo -->
-        <a class="navbar-brand" href="#"><img src="path/to/logo.png" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">We Are</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Study Abroad</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Our Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">News &amp; Event</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-          <div class="d-flex">
-            <!-- Search and Wishlist Icons -->
-            <div class="rounded-circle bg-white p-2 me-3">
-              <i class="fas fa-search"></i>
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Menu Items -->
+            <ul class="fw-bold navbar-nav ms-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">We Are</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Study Abroad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News &amp; Event</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="d-block d-md-none">
+              <div class="d-flex">
+                <!-- Search and Wishlist Icons -->
+              <div class="rounded-circle bg-white p-2 me-3">
+                <i class="fas fa-search"></i>
+              </div>
+              <div class="rounded-circle bg-white p-2 me-3">
+                <i class="fas fa-heart"></i>
+              </div>
+              <!-- User Icon -->
+              <div class="rounded-circle bg-white p-2">
+                <i class="fas fa-user"></i>
+              </div>
+              </div>
             </div>
-            <div class="rounded-circle bg-white p-2 me-3">
-              <i class="fas fa-heart"></i>
+          </div>
+          <div class="d-none d-md-block card rounded-pill px-3 border border-secondary-subtle">
+            <div class="d-flex">
+              <!-- Search and Wishlist Icons -->
+            <div class="rounded-circle bg-white p-2 me-2">
+              <!-- <i class="fas fa-search"></i> -->
+              <img src="./img/search.png" alt="">
+            </div>
+            <div class="rounded-circle bg-white p-2 me-2">
+              <!-- <i class="fas fa-heart"></i> -->
+              <img src="./img/love.png" alt="">
             </div>
             <!-- User Icon -->
             <div class="rounded-circle bg-white p-2">
-              <i class="fas fa-user"></i>
+              <!-- <i class="fas fa-user"></i> -->
+              <img src="./img/user.png" alt="">
+            </div>
             </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+      
   </header>
 
   <!-- Hero section start-->
-  <section class="bg-primary text-light py-5">
+  <section class=" pt-5">
     <div class="container">
       <div class="row">
         <!-- Left Side (Text Content) -->
-        <div class="col-lg-6">
-          <h1 class="display-4 mb-4">Find Your Dream Job</h1>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis purus at justo
-            euismod, in facilisis felis tincidunt.</p>
-          <button class="btn btn-light btn-lg">Get Started</button>
+        <div class="col-lg-6 py-5">
+            <h5><span class="text-danger">Join Our Team</span></h5>
+          <h1 class="mb-4">Unlock Your <br>Potential With <br> <span class="text-danger">BHE UNI</span> </h1>
         </div>
         <!-- Right Side (Image Content) -->
         <div class="col-lg-6 mt-4 mt-lg-0">
-          <img src="path/to/hero-image.jpg" alt="Hero Image" class="img-fluid rounded">
+          <img src="./img/illustration-herobox.png" alt="Hero Image" class="img-fluid rounded">
         </div>
       </div>
     </div>
@@ -101,9 +122,9 @@
   <!-- Hero section end-->
 
   <!-- Search section Start -->
-  <section class="py-5">
-    <div class="container">
-      <div class="card p-4">
+  <section class="py-5 primary-color text-white">
+    <div class="container px-5">
+      <div class="p-4">
         <!-- Title and Job Count -->
         <div class="d-flex justify-content-between mb-4">
           <h2 class="mb-0">Job Openings</h2>
@@ -111,7 +132,7 @@
         </div>
         <!-- Search Box -->
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Search job" aria-label="Search job" aria-describedby="search-icon">
+          <input type="text" class="form-control rounded-pill" placeholder="Search job" aria-label="Search job" aria-describedby="search-icon">
           <!-- <button class="btn btn-primary" type="button" id="search-icon">
             <i class="fas fa-search"></i>
           </button> -->
@@ -119,34 +140,34 @@
         <!-- Dropdown Filters -->
         <div class="row mb-3">
           <div class="col-md-3">
-            <label for="location">Location</label>
-            <select class="form-select" id="location">
-              <option selected>All Locations</option>
+            <!-- <label for="location">Location</label> -->
+            <select class="form-select rounded-pill mt-4" id="location">
+              <option selected>select Location</option>
               <option value="1">Location 1</option>
               <option value="2">Location 2</option>
               <!-- Add more options as needed -->
             </select>
           </div>
           <div class="col-md-3">
-            <label for="department">Department</label>
-            <select class="form-select" id="department">
-              <option selected>All Departments</option>
+            <!-- <label for="department">Department</label> -->
+            <select class="form-select rounded-pill mt-4" id="department">
+              <option selected>select Department</option>
               <option value="1">Department 1</option>
               <option value="2">Department 2</option>
               <!-- Add more options as needed -->
             </select>
           </div>
           <div class="col-md-3">
-            <label for="work-type">Work Type</label>
-            <select class="form-select" id="work-type">
-              <option selected>All Work Types</option>
+            <!-- <label for="work-type">Work Type</label> -->
+            <select class="form-select rounded-pill mt-4" id="work-type">
+              <option selected>select Work Type</option>
               <option value="1">Work Type 1</option>
               <option value="2">Work Type 2</option>
               <!-- Add more options as needed -->
             </select>
           </div>
           <div class="col-md-3 mx-auto">
-            <button class="btn btn-primary px-5 mt-4" type="button"><span class="px-5">Search</span></button>
+            <button class="btn btn-outline-info rounded-pill px-5 mt-4  text-white" type="button"><span class="px-5">Search</span></button>
           </div>
         </div>
         <!-- Search Button -->
@@ -157,7 +178,7 @@
   <!-- Search section End -->
 
   <!-- Ready section start -->
-  <div class="text-center">
+  <div class="text-center mt-5">
     <h5>Select Your Position</h5>
     <h3>Are You Ready To</h3>
     <h3>Join <span class="text-danger">Our Team</span></h3>
@@ -171,43 +192,42 @@
         <div class="row g-0">
           <!-- Left Side (Image) -->
           <div class="col-md-4">
-            <img src="path/to/job-image.jpg" alt="Job Image" class="img-fluid rounded-start">
+            <img src="./img/jobpost.jpg" alt="Job Image" class="img-fluid rounded-start">
           </div>
           <!-- Right Side (Job Details) -->
           <div class="col-md-8">
-            <div class="card-body">
+            <div class="card-body px-5 py-4">
               <!-- First Row -->
               <div class="row">
                 <div class="col-sm-8">
-                  <h5 class="card-title">Job Title</h5>
+                  <h5 class="card-title">HR Manager</h5>
                 </div>
                 <div class="col-sm-4 d-flex">
-                    <p class="card-text pe-3">Location</p>
-                    <p class="card-text">Job Type</p>
+                    <p class="card-text pe-3">London Office (UK)</p>
+                    <p class="card-text">Full Time</p>
                 </div>
               </div>
               <!-- Second Row -->
               <div class="row">
                 <div class="col-sm-8">
-                    <p class="card-text">Deadline</p>
+                    <p class="card-text text-danger">Deadline: 12th August 2023</p>
                 </div>
                 <div class="col-sm-4 d-flex">
-                    <p class="card-text pe-3">Vacancy</p>
-                    <button class="btn btn-secondary float-end">Share</button>
+                    <p class="card-text pe-3">Vacancy: 02</p>
+                    <a class="float-end">Share</a>
                 </div>
               </div>
               <!-- Job Description Row -->
               <div class="row">
                 <div class="col">
                   <h6 class="card-subtitle mb-2 text-muted">Job Description:</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, elit vel
-                    ultrices facilisis, odio turpis maximus justo, at interdum dolor turpis eu ligula.</p>
+                  <p class="card-text">Boost Education Service Ltd, a leading education service provider, is currently seeking an experienced and dynamic HR Manager to join our team. This is a part-time, hybrid role, offering the flexibility to work from home as well as on-site at our London headquarters.</p>
                 </div>
               </div>
               <!-- Apply Now Button Row -->
               <div class="row mt-3">
-                <div class="col">
-                  <button class="btn btn-primary">Apply Now</button>
+                <div class="col mt-3">
+                  <a class="" href="#" ><span class="secondary-color px-3 py-2 rounded-pill">Apply Now</span></a>
                 </div>
               </div>
             </div>
@@ -219,27 +239,27 @@
   <!-- Job Card Section End-->
 
    <!-- Counting Section -->
-   <section class="bg-light py-5">
+   <section class="primary-color py-5">
     <div class="container">
       <div class="row">
         <!-- Column 1 -->
         <div class="col-md-3 counting-item">
-          <div class="counting-number" data-count="45">0</div>
+          <div class="counting-number text-white" data-count="45">0</div>
           <div>Team Member</div>
         </div>
         <!-- Column 2 -->
         <div class="col-md-3 counting-item">
-          <div class="counting-number" data-count="7">0</div>
+          <div class="counting-number text-white" data-count="7">0</div>
           <div>Total Branch</div>
         </div>
         <!-- Column 3 -->
         <div class="col-md-3 counting-item">
-          <div class="counting-number" data-count="199">0</div>
+          <div class="counting-number text-white" data-count="199">0</div>
           <div>Happy Employee</div>
         </div>
         <!-- Column 4 -->
         <div class="col-md-3 counting-item">
-          <div class="counting-number" data-count="1010">0</div>
+          <div class="counting-number text-white" data-count="1010">0</div>
           <div>Events</div>
         </div>
       </div>
@@ -254,7 +274,7 @@
   </div>
   <!-- Ready section end -->
   <!-- Testimonial Section -->
-  <section class="bg-light py-5">
+  <section class="py-5">
     <div class="container">
       <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
         <!-- Testimonial Indicators (Slider Controls) -->
@@ -329,19 +349,19 @@
   </section>
 
   <!-- Culture section start-->
-  <section class="bg-primary text-light py-5">
+  <section class="py-5">
     <div class="container">
-      <div class="row">
+      <div class="row py-3">
         <!-- Left Side (Text Content) -->
         <div class="col-lg-6 mt-4 mt-lg-0">
-            <img src="path/to/hero-image.jpg" alt="Hero Image" class="img-fluid rounded">
+            <img src="./img/Plant.png" alt="Hero Image" class="img-fluid rounded">
           </div>
         <!-- Right Side (Image Content) -->
         <div class="col-lg-6">
-            <h1 class="display-4 mb-4">Find Your Dream Job</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis purus at justo
-              euismod, in facilisis felis tincidunt.</p>
-            <button class="btn btn-light btn-lg">Get Started</button>
+            <h4>Our Culture</h4>
+            <h1 class="mb-3">Our Culture of Continues <br>Learning and Growth at <br><span class="text-danger">BHE UNI</span> </h1>
+            <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore nisi quo adipisci cum eligendi libero tempora omnis maiores, dolores maxime, in labore aspernatur molestiae veritatis quas? Doloribus fuga sequi, totam adipisci possimus aspernatur. Iusto sit veniam minima asperiores. Similique, illum eligendi hic necessitatibus blanditiis est aliquid itaque asperiores aperiam!</p>
+            <a class="primary-color rounded-pill px-4 py-2">Learn More</a>
           </div>
       </div>
     </div>
@@ -357,13 +377,14 @@
   <!-- Benefit Header section end -->
 
   <!-- Benefits Section -->
-  <section class="bg-light py-5 text-center">
+  <section class="py-3 text-center">
     <div class="container">
       <div class="row d-flex">
         <!-- Benefit Card 1 -->
-        <div class="col-md-6 benefit-card">
+        <div class="col-md-6 benefit-card g-3">
           <div class="p-4 mx-3">
-            <i class="benefit-icon fas fa-cogs"></i>
+            <!-- <i class="benefit-icon fas fa-cogs"></i> -->
+            <img src="./img/benifit-01.png" alt="">
             <h5 class="pt-3">Title 1</h5>
             <p>Description paragraph goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis,
                 elit vel ultrices facilisis, odio turpis maximus justo, at interdum dolor turpis eu ligula.</p>
@@ -372,7 +393,39 @@
         <!-- Benefit Card 2 -->
         <div class="col-md-6 benefit-card">
             <div class="p-4 mx-3">
-                <i class="benefit-icon fas fa-cogs"></i>
+                <img src="./img/benifit-02.png" alt="">
+                <h5 class="pt-3">Title 1</h5>
+                <p>Description paragraph goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis,
+                    elit vel ultrices facilisis, odio turpis maximus justo, at interdum dolor turpis eu ligula.</p>
+            </div>
+      </div>
+        <div class="col-md-6 benefit-card">
+            <div class="p-4 mx-3">
+                <img src="./img/benifit-03.png" alt="">
+                <h5 class="pt-3">Title 1</h5>
+                <p>Description paragraph goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis,
+                    elit vel ultrices facilisis, odio turpis maximus justo, at interdum dolor turpis eu ligula.</p>
+            </div>
+      </div>
+        <div class="col-md-6 benefit-card">
+            <div class="p-4 mx-3">
+                <img src="./img/benifit-04.png" alt="">
+                <h5 class="pt-3">Title 1</h5>
+                <p>Description paragraph goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis,
+                    elit vel ultrices facilisis, odio turpis maximus justo, at interdum dolor turpis eu ligula.</p>
+            </div>
+      </div>
+        <div class="col-md-6 benefit-card">
+            <div class="p-4 mx-3">
+                <img src="./img/benifit-05.png" alt="">
+                <h5 class="pt-3">Title 1</h5>
+                <p>Description paragraph goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis,
+                    elit vel ultrices facilisis, odio turpis maximus justo, at interdum dolor turpis eu ligula.</p>
+            </div>
+      </div>
+        <div class="col-md-6 benefit-card">
+            <div class="p-4 mx-3">
+                <img src="./img/benifit-06.png" alt="">
                 <h5 class="pt-3">Title 1</h5>
                 <p>Description paragraph goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis,
                     elit vel ultrices facilisis, odio turpis maximus justo, at interdum dolor turpis eu ligula.</p>
