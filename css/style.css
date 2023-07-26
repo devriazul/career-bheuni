@@ -1,3 +1,18 @@
+@font-face {
+  font-family: centuryGothic;
+  src: url(./fonts/CenturyGothic.otf);
+}
+body{
+  font-family: 'centuryGothic',sans-serif!important;
+  /* font-family: 'Poppins', sans-serif; */
+}
+.menubar{
+  font-family: 'Gothic A1', sans-serif!important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 .primary-color{
     color:white ;
     background-color:#20356D ;
