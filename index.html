@@ -13,9 +13,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="canonical" href="https://www.fonts.com/font/monotype/century-gothic/story" />
+  
 
 </head>
 <body>
@@ -23,19 +23,22 @@
   <!-- Header Section -->
   <header class="bg-light">
     <!-- Top Bar -->
-    <div class="py-2 primary-color">
-      <div class="container d-flex justify-content-end">
+    <div class="py-2 primary-color d-none d-md-block">
+      <div class="container d-flex justify-content-end topbar">
         <div class="me-3">
-          <a class="text-reset" href="mailto:info@example.com"><i class="fas fa-envelope"></i> ask@bheuni.io</a>
+          <a class="text-reset" href="mailto:info@example.com">ask@bheuni.io</a>
         </div>
         <div class="me-3">
-          <a class="text-reset" href="tel:+123456789"><i class="fas fa-phone"></i> +1 (234) 567-89</a>
+          <a class="text-reset" href="tel:+123456789">+880 1407-093812 (Dhaka)</a>
         </div>
         <div class="me-3">
-          <a href="#"><img src="./img/fb.png" alt=""></a>
-          <a href="#"><img src="./img/twitter.png" alt=""></a>
-          <a href="#"><img src="./img/linkedin.png" alt=""></a>
-          <!-- <a href="#"><img src="./img/" alt=""></a> -->
+          <a class="text-reset" href="tel:+123456789">+44 (0) 2033 189 380 (UK) <span class="ps-2">|</span> </a>
+        </div>
+        <div class="me-3">
+          <a class="pe-3" href="#"><img src="./img/fb.png" alt=""></a>
+          <a class="pe-3" href="#"><img src="./img/twitter.png" alt=""></a>
+          <a class="pe-3" href="#"><img src="./img/linkedin.png" alt=""></a>
+          <a class="pe-3" href="#"><img src="./img/youtube.png" alt=""></a>
         </div>
       </div>
     </div>
@@ -116,8 +119,8 @@
       <div class="row">
         <!-- Left Side (Text Content) -->
         <div class="col-lg-6 py-5">
-            <h5><span class="text-danger">Join Our Team</span></h5>
-          <h1 class="mb-4">Unlock Your <br>Potential With <br> <span class="text-danger">BHE UNI</span> </h1>
+            <h5><span class="hero-title1">Join Our Team</span></h5>
+          <h1 class="hero-title2 highligh-primary">Unlock Your <br>Potential With <br> <span class="hero-title3">BHE UNI</span> </h1>
         </div>
         <!-- Right Side (Image Content) -->
         <div class="col-lg-6 mt-4 mt-lg-0">
@@ -129,25 +132,21 @@
   <!-- Hero section end-->
 
   <!-- Search section Start -->
-  <section class="py-5 primary-color text-white">
+  <section class="py-3 primary-color text-white">
     <div class="container px-5">
       <div class="p-4">
         <!-- Title and Job Count -->
         <div class="d-flex justify-content-between mb-4">
-          <h2 class="mb-0">Job Openings</h2>
-          <p class="mb-0">32 jobs available</p>
+          <h2 class="mb-0 job-search-title">Job Opening</h2>
+          <p class="mb-0 pe-2">32 jobs available</p>
         </div>
         <!-- Search Box -->
         <div class="input-group mb-3">
-          <input type="text" class="form-control rounded-pill" placeholder="Search job" aria-label="Search job" aria-describedby="search-icon">
-          <!-- <button class="btn btn-primary" type="button" id="search-icon">
-            <i class="fas fa-search"></i>
-          </button> -->
+          <input type="text" class="form-control rounded-pill" placeholder="Search jobs..." aria-label="Search job" aria-describedby="search-icon">
         </div>
         <!-- Dropdown Filters -->
-        <div class="row mb-3">
-          <div class="col-md-3">
-            <!-- <label for="location">Location</label> -->
+        <div class="row mb-3 d-md-flex justify-content-around">
+          <div class="col-12 col-md-3">
             <select class="form-select rounded-pill mt-4" id="location">
               <option selected>select Location</option>
               <option value="1">Location 1</option>
@@ -155,8 +154,7 @@
               <!-- Add more options as needed -->
             </select>
           </div>
-          <div class="col-md-3">
-            <!-- <label for="department">Department</label> -->
+          <div class="col-12 col-md-3">
             <select class="form-select rounded-pill mt-4" id="department">
               <option selected>select Department</option>
               <option value="1">Department 1</option>
@@ -164,8 +162,7 @@
               <!-- Add more options as needed -->
             </select>
           </div>
-          <div class="col-md-3">
-            <!-- <label for="work-type">Work Type</label> -->
+          <div class="col-12 col-md-3">
             <select class="form-select rounded-pill mt-4" id="work-type">
               <option selected>select Work Type</option>
               <option value="1">Work Type 1</option>
@@ -173,8 +170,8 @@
               <!-- Add more options as needed -->
             </select>
           </div>
-          <div class="col-md-3 mx-auto">
-            <button class="btn btn-outline-info rounded-pill px-5 mt-4  text-white" type="button"><span class="px-5">Search</span></button>
+          <div class="col-12 col-md-3">
+            <a class="search-button rounded-pill mt-4 text-white" type="button">Search</a>
           </div>
         </div>
         <!-- Search Button -->
@@ -186,9 +183,8 @@
 
   <!-- Ready section start -->
   <div class="text-center mt-5">
-    <h5>Select Your Position</h5>
-    <h3>Are You Ready To</h3>
-    <h3>Join <span class="text-danger">Our Team</span></h3>
+    <h5 class="job-caption highligh-secondary">Select Your Position</h5>
+    <h3 class="job-caption2 highligh-primary">Are You Ready To <br>Join <span class="highligh-secondary">Our Team</span></h3>
   </div>
   <!-- Ready section end -->
 
@@ -196,20 +192,20 @@
    <section class="py-5">
     <div class="container">
       <div class="card mb-4">
-        <div class="row g-0">
+        <div class="row">
           <!-- Left Side (Image) -->
-          <div class="col-md-4">
-            <img src="./img/jobpost.jpg" alt="Job Image" class="img-fluid rounded-start">
+          <div class="col-12 col-md-3 d-flex align-items-center justify-content-center">
+            <img src="./img/img-job-position-01.png" alt="Job Image" class="img-fluid">
           </div>
           <!-- Right Side (Job Details) -->
-          <div class="col-md-8">
+          <div class="col-12 col-md-9">
             <div class="card-body px-5 py-4">
               <!-- First Row -->
               <div class="row">
-                <div class="col-sm-8">
-                  <h5 class="card-title">HR Manager</h5>
+                <div class="col">
+                  <h5 class="card-title highligh-primary">HR Manager</h5>
                 </div>
-                <div class="col-sm-4 d-flex">
+                <div class="col d-flex justify-content-end">
                     <p class="card-text pe-3">London Office (UK)</p>
                     <p class="card-text">Full Time</p>
                 </div>
@@ -219,7 +215,7 @@
                 <div class="col-md-8">
                     <p class="card-text text-danger">Deadline: 12th August 2023</p>
                 </div>
-                <div class="col-md-4 d-flex">
+                <div class="col-md-4 d-flex justify-content-end">
                     <p class="card-text pe-3">Vacancy: 02</p>
                     <a class="float-end">Share</a>
                 </div>
@@ -227,8 +223,8 @@
               <!-- Job Description Row -->
               <div class="row">
                 <div class="col">
-                  <h6 class="card-subtitle mb-2 text-muted">Job Description:</h6>
-                  <p class="card-text">Boost Education Service Ltd, a leading education service provider, is currently seeking an experienced and dynamic HR Manager to join our team. This is a part-time, hybrid role, offering the flexibility to work from home as well as on-site at our London headquarters.</p>
+                  <!-- <h6 class="card-subtitle mb-2 text-muted">Job Description:</h6> -->
+                  <p class="card-text">Boost Education Service Ltd, a leading education service provider, is currently seeking an experienced and dynamic HR Manager to join our team. This is a part-time, hybrid role, offering the flexibility to work from home as well as on-site at our London headquarters. <a href=""><span class="highligh-primary">Details ...</span></a></p>
                 </div>
               </div>
               <!-- Apply Now Button Row -->

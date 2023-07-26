@@ -1,10 +1,19 @@
 @font-face {
   font-family: centuryGothic;
-  src: url(./fonts/CenturyGothic.otf);
+  src: url(./fonts/CenturyGothic.otf) format('otf'),
+  url(./fonts/CenturyGothic.ttf) format('ttf') ;
 }
 body{
   font-family: 'centuryGothic',sans-serif!important;
   /* font-family: 'Poppins', sans-serif; */
+}
+.topbar{
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'centuryGothic',sans-serif!important;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
 }
 .menubar{
   font-family: 'Gothic A1', sans-serif!important;
@@ -12,6 +21,60 @@ body{
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.hero-title1{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #F37124;
+}
+.hero-title2{
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-title3{
+  color: #F37124;
+}
+.job-search-title{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.search-button{
+  border-radius: 30px;
+  border: 2px solid white;
+  text-align: center;
+  padding: 6px 100px;
+  font-family: Gothic A1;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.job-caption{
+  font-family: Century Gothic;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.job-caption2{
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Century Gothic;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.highligh-secondary{
+  color: #F47025;
+}
+.highligh-primary{
+  color: #20356D;
 }
 .primary-color{
     color:white ;
