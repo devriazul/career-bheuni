@@ -81,7 +81,7 @@ body{
     background-color:#20356D ;
 }
 .secondary-color{
-    background-color:#F37124 ;
+    background-color:#F37124 !important;
     color:white ;
 }
 .counting-item {
