@@ -125,3 +125,15 @@ a{
   background: url('../img/img_footer.png');
   background-color: #20356D;
 }
+.submit-button{
+  display: flex;
+  width: 222px;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  background-color: #20356D;
+  color: white;
+  border-radius: 5px;
+}
