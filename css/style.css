@@ -137,3 +137,8 @@ a{
   color: white;
   border-radius: 5px;
 }
+.card-custom{
+  border-width: 1px 0!important;
+  padding: 0!important;
+  margin: 0!important;
+}
