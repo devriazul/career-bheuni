@@ -133,35 +133,49 @@
 
   <!-- Search section Start -->
   <section class="py-3 primary-color text-white">
-    <div class="container px-md-5">
-      <div class="p-md-4 p-2">
+    <div class="container px-5">
+      <div class="p-4">
         <!-- Title and Job Count -->
         <div class="d-flex justify-content-between mb-4">
           <h2 class="mb-0 job-search-title">Job Opening</h2>
           <p class="mb-0 pe-2">32 jobs available</p>
         </div>
-        <div class="row d-flex justify-content-between">
-          <!-- Search Box -->
-          <div class="col-md-6 mb-3">
-            <input type="text" class="form-control rounded-pill" placeholder="Search jobs..." aria-label="Search job" aria-describedby="search-icon">
-          </div>
+        <!-- Search Box -->
+        <div class="input-group mb-3">
+          <input type="text" class="form-control rounded-pill" placeholder="Search jobs..." aria-label="Search job" aria-describedby="search-icon">
+        </div>
         <!-- Dropdown Filters -->
-        <!-- <div class="row mb-3 d-md-flex justify-content-around"> -->
-          <div class="col-md-3 mb-3">
-            <select class="form-select rounded-pill" id="location">
-              <option selected disabled>Select Location</option>
-              <option value="1">Dhaka Office</option>
-              <option value="2">Sylhet Office</option>
-              <option value="2">London Office</option>
-              <option value="2">Manchester Office</option>
+        <div class="row mb-3 d-md-flex justify-content-around">
+          <div class="col-12 col-md-3">
+            <select class="form-select rounded-pill mt-4" id="location">
+              <option selected>select Location</option>
+              <option value="1">Location 1</option>
+              <option value="2">Location 2</option>
               <!-- Add more options as needed -->
             </select>
           </div>
-          <div class="col-md-3">
-            <a class="search-button rounded-pill text-white" type="button">Search</a>
+          <div class="col-12 col-md-3">
+            <select class="form-select rounded-pill mt-4" id="department">
+              <option selected>select Department</option>
+              <option value="1">Department 1</option>
+              <option value="2">Department 2</option>
+              <!-- Add more options as needed -->
+            </select>
           </div>
-        <!-- </div> -->
+          <div class="col-12 col-md-3">
+            <select class="form-select rounded-pill mt-4" id="work-type">
+              <option selected>select Work Type</option>
+              <option value="1">Work Type 1</option>
+              <option value="2">Work Type 2</option>
+              <!-- Add more options as needed -->
+            </select>
+          </div>
+          <div class="col-12 col-md-3">
+            <a class="search-button rounded-pill mt-4 text-white" type="button">Search</a>
+          </div>
         </div>
+        <!-- Search Button -->
+        
       </div>
     </div>
   </section>
@@ -175,17 +189,17 @@
   <!-- Ready section end -->
 
    <!-- Job Card Section Start -->
-   <section class="m-5">
+   <section class="py-5">
     <div class="container">
-      <div class="card">
+      <div class="card mb-4">
         <div class="row">
           <!-- Left Side (Image) -->
-          <div class="col-12 col-md-3 d-flex align-items-center justify-content-start">
-            <img src="./img/img-job-position-01.png" alt="Job Image" class="ps-3 img-fluid">
+          <div class="col-12 col-md-3 d-flex align-items-center justify-content-start ps-5">
+            <img src="./img/img-job-position-01.png" alt="Job Image" class="img-fluid">
           </div>
           <!-- Right Side (Job Details) -->
           <div class="col-12 col-md-9">
-            <div class="card-body py-4">
+            <div class="card-body px-5 py-4">
               <!-- First Row -->
               <div class="row">
                 <div class="col">
@@ -216,7 +230,7 @@
               <!-- Apply Now Button Row -->
               <div class="row mt-3">
                 <div class="col mt-3">
-                  <a class="" href="details.html" target="_blank" ><span class="secondary-color px-3 py-2 rounded-pill">Apply Now</span></a>
+                  <a class="" href="#" ><span class="secondary-color px-3 py-2 rounded-pill">Apply Now</span></a>
                 </div>
               </div>
             </div>
