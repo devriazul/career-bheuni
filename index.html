@@ -140,42 +140,28 @@
           <h2 class="mb-0 job-search-title">Job Opening</h2>
           <p class="mb-0 pe-2">32 jobs available</p>
         </div>
-        <!-- Search Box -->
-        <div class="input-group mb-3">
-          <input type="text" class="form-control rounded-pill" placeholder="Search jobs..." aria-label="Search job" aria-describedby="search-icon">
-        </div>
+        <div class="row d-flex justify-content-between">
+          <!-- Search Box -->
+          <div class="col-md-6">
+            <input type="text" class="form-control rounded-pill" placeholder="Search jobs..." aria-label="Search job" aria-describedby="search-icon">
+          </div>
         <!-- Dropdown Filters -->
-        <div class="row mb-3 d-md-flex justify-content-around">
-          <div class="col-12 col-md-3">
-            <select class="form-select rounded-pill mt-4" id="location">
-              <option selected>select Location</option>
-              <option value="1">Location 1</option>
-              <option value="2">Location 2</option>
+        <!-- <div class="row mb-3 d-md-flex justify-content-around"> -->
+          <div class="col-md-3">
+            <select class="form-select rounded-pill" id="location">
+              <option selected disabled>Select Location</option>
+              <option value="1">Dhaka Office</option>
+              <option value="2">Sylhet Office</option>
+              <option value="2">London Office</option>
+              <option value="2">Manchester Office</option>
               <!-- Add more options as needed -->
             </select>
           </div>
-          <div class="col-12 col-md-3">
-            <select class="form-select rounded-pill mt-4" id="department">
-              <option selected>select Department</option>
-              <option value="1">Department 1</option>
-              <option value="2">Department 2</option>
-              <!-- Add more options as needed -->
-            </select>
+          <div class="col-md-3">
+            <a class="search-button rounded-pill text-white" type="button">Search</a>
           </div>
-          <div class="col-12 col-md-3">
-            <select class="form-select rounded-pill mt-4" id="work-type">
-              <option selected>select Work Type</option>
-              <option value="1">Work Type 1</option>
-              <option value="2">Work Type 2</option>
-              <!-- Add more options as needed -->
-            </select>
-          </div>
-          <div class="col-12 col-md-3">
-            <a class="search-button rounded-pill mt-4 text-white" type="button">Search</a>
-          </div>
+        <!-- </div> -->
         </div>
-        <!-- Search Button -->
-        
       </div>
     </div>
   </section>
