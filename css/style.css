@@ -121,3 +121,7 @@ body{
   a{
     text-decoration: none!important;
   }
+.footer-menubar{
+  background: url('../img/img_footer.png');
+  background-color: #20356D;
+}
