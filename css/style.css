@@ -140,3 +140,19 @@ a{
 .card-custom{
   border-width: 1px 0!important;
 }
+
+.share-popup {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  z-index: 1000;
+}
+
+.share-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
